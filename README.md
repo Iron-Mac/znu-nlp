@@ -7,7 +7,12 @@ Nlp python librarry based on znu services
 
 from znu_nlp.module_call import call_module
 
+result = call_module(module_id, auth_token, input_data)
+print(result)
 ```
+Note: Replace every pices with correct value
+
+
 
 ## Services List
 
